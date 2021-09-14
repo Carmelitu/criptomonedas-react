@@ -17,11 +17,11 @@ On this page you can compare Criptocurrency prices connecting to CryptoCompare's
 * JavaScript
 * HTML
 * CSS
+* React
 
 ## Authors ✒️
 
-* **Lucas Seijo** - *JavaScript* - [Carmelitu](https://github.com/Carmelitu)
-* **Juan Pablo De La Torre Valdez (Teacher)** - *CSS / HTML* - [Código con Juan](https://codigoconjuan.com/)
+* **Lucas Seijo** - [Carmelitu](https://github.com/Carmelitu)
 
 
 
