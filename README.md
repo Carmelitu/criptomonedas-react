@@ -1,10 +1,10 @@
 # Cotizador Criptomonedas / Crypto Compare
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d94728d0-01d7-4369-be7e-d08aa562b048/deploy-status)](https://app.netlify.com/sites/cotizador-cripto-carmelitu/deploys)
 
-Check it out here: https://cotizador-cripto-carmelitu.netlify.app/
 
-Project made for a JavaScript course on Udemy. HTML and CSS are delivered already finalized by the teacher.
+Check it out here: 
+
+Project made for a React course on Udemy.
 
 On this page you can compare Criptocurrency prices connecting to CryptoCompare's API. It show the actual price and its variation during the day.
 
