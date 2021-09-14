@@ -39,6 +39,7 @@ const Formulario = () => {
     // Custom Hooks
     const [moneda, SelectMonedas] = useMoneda('Elige tu moneda', '', monedas);
     const [criptomoneda, SelectCripto] = useCriptomoneda('Elige tu criptomoneda', '', listadoCripto);
+    const [error, setError] = useState(false);
 
     // Llamado a la API
     useEffect(() => {
@@ -49,10 +50,27 @@ const Formulario = () => {
             setCriptomonedas(res.data.Data);
         }
         consultarAPI();
-    }, [])
+    }, [] );
+
+    const cotizarMoneda = e => {
+        e.preventDefault();
+
+        // Validar campos
+        if (moneda === '' || criptomoneda === ''){
+            setError(true);
+            return;
+        }
+
+        setError(false);
+
+
+    }
 
     return ( 
-        <form>
+        <form
+            onSubmit={cotizarMoneda}
+        >
+            {error ? 'Hay un error' : null}
             <SelectMonedas />
             <SelectCripto />
             <Boton
