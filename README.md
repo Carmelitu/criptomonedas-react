@@ -1,3 +1,30 @@
+# Cotizador Criptomonedas / Crypto Compare
+
+
+
+Check it out here: 
+
+Project made for a React course on Udemy.
+
+On this page you can compare Criptocurrency prices connecting to CryptoCompare's API. It show the actual price and its variation during the day.
+
+# Home
+
+<img src="https://github.com/Carmelitu/API-cotizador-cripto/blob/master/img/home.JPG" style="margin: 0 auto"/>
+
+## Builded with 🛠️
+
+* JavaScript
+* HTML
+* CSS
+* React
+
+## Authors ✒️
+
+* **Lucas Seijo** - [Carmelitu](https://github.com/Carmelitu)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
