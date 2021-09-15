@@ -1,8 +1,8 @@
 # Cotizador Criptomonedas / Crypto Compare
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58116ca1-7949-470f-8a54-dcf4a84da157/deploy-status)](https://app.netlify.com/sites/cryptocompare-react-carmelitu/deploys)
 
-
-Check it out here: 
+Check it out here: https://cryptocompare-react-carmelitu.netlify.app/
 
 Project made for a React course on Udemy.
 
