@@ -4,6 +4,7 @@ import Axios from 'axios';
 
 import useMoneda from '../hooks/useMoneda';
 import useCriptomoneda from '../hooks/useCriptomoneda';
+import Error from './Error';
 
 const Boton = styled.input`
     margin-top: 20px;
@@ -25,7 +26,7 @@ const Boton = styled.input`
 `;
 
 
-const Formulario = () => {
+const Formulario = ({setMoneda, setCripto}) => {
 
     const [listadoCripto, setCriptomonedas] = useState([]);
 
@@ -62,6 +63,8 @@ const Formulario = () => {
         }
 
         setError(false);
+        setMoneda(moneda);
+        setCripto(criptomoneda);
 
 
     }
@@ -70,7 +73,7 @@ const Formulario = () => {
         <form
             onSubmit={cotizarMoneda}
         >
-            {error ? 'Hay un error' : null}
+            {error ? <Error mensaje="Todos los campos son obligatorios" /> : null}
             <SelectMonedas />
             <SelectCripto />
             <Boton
